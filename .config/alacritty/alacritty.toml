@@ -1,0 +1,35 @@
+import = [
+    "~/.config/alacritty/themes/themes/carbonfox.toml"
+]
+
+
+[font]
+size = 9.0
+
+[font.bold]
+family = "Mononoki Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Mononoki Nerd Font Mono"
+style = "BoldItalic"
+
+[font.italic]
+family = "Mononoki Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Mononoki Nerd Font Mono"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[window]
+decorations = "none"
+opacity = 1.0
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 120
+lines = 85
