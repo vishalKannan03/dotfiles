@@ -1,0 +1,37 @@
+
+
+[font]
+size = 8.0
+
+[font.bold]
+family = "FiraCode Nerd Font Mono" 
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font Mono"
+style = "BoldItalic"
+
+[font.italic]
+family = "FiraCode Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[window]
+decorations = "none"
+opacity = 1.0
+startup_mode = "Maximized"
+
+[window.dimensions]
+columns = 120
+lines = 85
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+]
