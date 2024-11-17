@@ -13,6 +13,9 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id nitrogen --restore &
+exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
+exec --no-startup-id i3-msg 'workspace 3; exec spotify-launcher'
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
@@ -134,21 +137,6 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+Shift+e exit
-mode "exit: [l]ogout, [r]eboot, [s]hutdown" {
-
-  bindsym l exec i3-msg exit
-
-  bindsym r exec systemctl reboot
-
-  bindsym s exec systemctl shutdown
-
-  bindsym Escape mode "default"
-
-  bindsym Return mode "default"
-
-}
-
-bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

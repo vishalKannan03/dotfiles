@@ -1,7 +1,7 @@
 
 
 [font]
-size = 8.0
+size = 8.5
 
 [font.bold]
 family = "FiraCode Nerd Font Mono" 
@@ -24,8 +24,9 @@ hide_when_typing = true
 
 [window]
 decorations = "none"
-opacity = 1.0
+opacity = 0.5
 startup_mode = "Maximized"
+padding = { x = 15, y = 10 }
 
 [window.dimensions]
 columns = 120
@@ -33,5 +34,5 @@ lines = 85
 
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+    "~/.config/alacritty/themes/themes/kanagawa_dragon.toml"
 ]
